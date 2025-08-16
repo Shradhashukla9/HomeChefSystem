@@ -2,6 +2,13 @@
 
 The HomeChef Booking System is a full-stack web application where users can register, browse chefs and menus, and make bookings. It is built using Spring Boot (backend) and React (frontend) with MySQL as the database.
 
+<img width="1884" height="995" alt="home" src="https://github.com/user-attachments/assets/61909517-1c09-4da3-8515-50a998ba0083" />
+
+<img width="1868" height="999" alt="menu" src="https://github.com/user-attachments/assets/882f1f98-d4b9-4d0c-a6f9-d6e5b346dbbd" />
+
+<img width="1863" height="999" alt="admin" src="https://github.com/user-attachments/assets/2dd3a514-72a0-4591-b693-9c32fa1379a9" />
+
+
 ## Features
 
 👤 User Management: Register, login, and authentication
@@ -14,26 +21,27 @@ The HomeChef Booking System is a full-stack web application where users can regi
 
 💳 Billing: Auto-generated billing with booking reference and status
 
-##  Project Structure
+
+## Project structure
 
 homechef-system/
-│── backend/                  # Spring Boot Project (STS)
-│   ├── src/main/java/...     # Java source code
-│   ├── src/main/resources/   # application.properties
-│   └── pom.xml               # Maven build file
+│── backend/ # Spring Boot Project (STS)
+│ ├── src/main/java/... # Java source code
+│ ├── src/main/resources/ # application.properties
+│ └── pom.xml # Maven build file
 │
-│── frontend/                 # React + Vite project
-│   ├── src/                  # React components & pages
-│   ├── public/               # Static assets
-│   ├── package.json          # npm dependencies
-│   └── vite.config.js        # Vite configuration
+│── frontend/ # React + Vite project
+│ ├── src/ # React components & pages
+│ ├── public/ # Static assets
+│ ├── package.json # npm dependencies
+│ └── vite.config.js # Vite configuration
 │
 └── README.md
 
 
 ## Database Design
 
-# Entities
+## Entities
 
 User(id, name, email, password)
 
@@ -49,7 +57,7 @@ Billing(id, booking_id, user_id, amount, status)
 
 ##  Tech Stack
 
-# Backend
+## Backend
 
 Spring Boot (REST API)
 
@@ -59,7 +67,7 @@ MySQL (Database)
 
 Maven (Build tool)
 
-# Frontend
+## Frontend
 
 React.js
 
@@ -67,7 +75,7 @@ Axios (API calls)
 
 Tailwind (Styling)
 
-# Tools
+## Tools
 
 Postman – API Testing
 
@@ -79,7 +87,7 @@ VS Code – Frontend Development
 
 ## How to Run
 
-# Backend (Spring Boot)
+## Backend (Spring Boot)
 
 Go to backend/ folder
 
@@ -87,7 +95,7 @@ Update application.properties with your MySQL credentials
 
 run the application
 
-# Frontend (visual studio)
+## Frontend (visual studio)
 
 1. Go to frontend/ folder
 

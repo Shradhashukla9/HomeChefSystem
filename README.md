@@ -24,19 +24,16 @@ The HomeChef Booking System is a full-stack web application where users can regi
 
 ## Project structure
 
-homechef-system/
-│── backend/ # Spring Boot Project (STS)
-│ ├── src/main/java/... # Java source code
-│ ├── src/main/resources/ # application.properties
-│ └── pom.xml # Maven build file
-│
-│── frontend/ # React + Vite project
-│ ├── src/ # React components & pages
-│ ├── public/ # Static assets
-│ ├── package.json # npm dependencies
-│ └── vite.config.js # Vite configuration
-│
-└── README.md
+**homechef-system/**
+  - **backend/** – Spring Boot Project (STS)
+    - `src/main/java/...` – Java source code  
+    - `src/main/resources/` – application.properties  
+    - `pom.xml` – Maven build file  
+  - **frontend/** – React + Vite project
+    - `src/` – React components & pages  
+    - `public/` – Static assets  
+    - `package.json` – npm dependencies  
+    - `vite.config.js` – Vite configuration
 
 
 ## Database Design
